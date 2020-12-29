@@ -1,0 +1,264 @@
+@media only screen and (max-width: 1400px)
+{
+    header {
+        height: 90vh;
+    }
+    .portfolio-section .col:nth-child(3) {
+    margin-left: 0;
+}
+}
+
+
+
+@media only screen and (max-width: 1200px)
+{
+    header {
+        height: 90vh;
+    }
+    .portfolio-section .col:nth-child(3) {
+    margin-left: 0;
+}
+}
+
+
+
+@media only screen and (max-width: 1024px)
+{
+    .mobile-menu span {
+        display: block;
+    }
+    header {
+        height: 85vh;
+    }
+    .row {
+        margin: 0 1.5rem;
+    }
+    .main-nav {
+        display: none;
+    }
+    html {
+        font-size: 60%;
+    }
+    .team-section .card {
+    width: 50%;
+    margin-bottom: 3rem;
+    }
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+    .contact-section form {
+    width: 60%;
+    margin-left: 20%;
+    }
+    .portfolio-section .col:nth-child(3) {
+    margin-left: 0;
+}
+}
+
+
+
+@media only screen and (max-width: 980px)
+{
+    header {
+        height: 85vh;
+    }
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+	.team-section .card {
+    width: 50%;
+    margin-bottom: 3rem;
+    }
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+    .portfolio-image {
+    width: 100%;
+    height: 30rem;
+    }
+    html {
+        font-size: 57.5%;
+    }
+     h1 {
+        font-size: 3.8rem;
+    }
+    .portfolio-section .col:nth-child(3) {
+    margin-left: 0;
+}
+}
+
+
+
+@media only screen and (max-width: 768px)
+{
+    header {
+        height: 85vh;
+    }
+    html {
+        font-size: 55%;
+    }
+    .logo {
+        width: auto;
+        height: 15rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        float: left;
+    }
+    .little-description {
+        width: 100%;
+        margin-left: 0;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 3.6rem;
+    }
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+    .contact-section form {
+    width: 75%;
+    margin-left: 15%;
+    }
+    .portfolio-section .col:nth-child(3) {
+    margin-left: 0;
+}
+}
+
+
+
+@media only screen and (max-width: 631px)
+{
+    header {
+        height: 85vh;
+    }
+    .logo {
+        width: auto;
+        height: 13rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        float: left;
+    }
+    .portfolio-section .col:nth-child(1),
+    .portfolio-section .col:nth-child(2),
+    .portfolio-section .col:nth-child(3),
+    .portfolio-section .col:nth-child(4){
+        width: 80%;
+        margin-left: 10%;
+    }
+	.team-section .card {
+    width: 100%;
+    }
+    .contact-section form {
+    width: 80%;
+    margin-left: 10%;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 3.4rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 480px)
+{
+    header {
+        height: 85vh;
+    }
+    html {
+        font-size: 52.5%;
+    }
+    .span_1_of_4 {
+        width: 100%;
+    }
+    .logo {
+        width: auto;
+        height: 12rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        float: left;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 3rem;
+        margin-top: 6rem;
+        font-family: GUNGSUH;
+    }
+    .hero-text-box .btn-hero {
+        padding: 1rem 2.5rem;
+        font-size: 1.6rem;
+        color: #CC0022;
+        margin-top: 1rem;
+    }
+    .btn {
+        margin-top: 2rem;
+    }
+    .contact-section form {
+    width: 100%;
+    margin-left: 0;
+    }
+    .btn-submit {
+        font-size: 1.8rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 410px)
+{
+    header {
+        height: 80vh;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 2.8rem;
+    }
+    .testimonial .little-description {
+    font-size: 2.6rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 380px)
+{
+    header {
+        height: 80vh;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+    .logo {
+        width: auto;
+        height: 8rem;
+        margin-left: .5rem;
+        margin-top: 1rem;
+        float: left;
+    }
+    .hero-text-box .btn-hero {
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+        color: #CC0022;
+        margin-top: .5rem;
+    }
+    .btn-submit {
+    border: 0;
+    border-bottom: .2rem solid #000066;
+    background: #CC0022;
+	color: #000044;
+    margin-top: 3rem;
+    padding: 1.5rem 4rem;
+    font-size: 1.6rem;
+}
+}
