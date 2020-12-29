@@ -1,0 +1,296 @@
+@media only screen and (max-width: 1440px)
+{
+
+}
+
+
+
+@media only screen and (max-width:1330px)
+{
+    .web-ui .footer .container .row .col-md-3 .footer-content-1 {
+        padding-left: 0;
+    }
+    .web-ui .footer .container .row .col-md-2 .footer-content-2 {
+        padding-left: 0;
+    }
+    .web-ui .footer .container .row .col-md-3 .footer-content-3 {
+        padding-left: 0;
+    }
+    .web-ui .footer .container .row .col-md-2 .footer-content-4 {
+        padding-left: 0;
+    }
+    .web-ui .footer .container .row .col-md-2 .footer-content-5 {
+        padding-left: 0;
+    }
+}
+
+
+
+@media only screen and (max-width:1080px)
+{
+    .web-ui .footer .container .row .col-md-2 .footer-content-2 {
+        display: none;
+    }
+    .web-ui .footer .container .row .col-md-2 .footer-content-5 {
+        display: none;
+    }
+    .web-ui .about-product {
+        height: 500px;
+    }
+}
+
+
+
+@media only screen and (max-width:980px)
+{
+    .web-ui .box-container {
+        display: none;
+    }
+    .web-ui .logo {
+        width: 165px;
+        height: 45px;
+        margin-left: 15px;
+    }
+    .web-ui .footer .container .row .col-md-3 .footer-content-1 {
+        padding-left: 0;
+    }
+    .web-ui .footer .container .row .col-md-3 .footer-content-3 {
+        padding-left: 0;
+    }
+    .web-ui .footer .container .row .col-md-2 .footer-content-4 {
+        padding-left: 0;
+    }
+    .web-ui .footer .col-md-3 .footer-content-3 .payment-logo .visa-card {
+        margin-top: 10px;
+        padding-left: 0;
+    }
+}
+
+
+
+@media only screen and (max-width:768px)
+{
+    .web-ui .overlay a {
+        font-size: 20px;
+        letter-spacing: 0.5px;
+    }
+    .web-ui .overlay .closebtn {
+        font-size: 45px;
+        top: 10px;
+        right: 10px;
+    }
+    .web-ui .discount-price .card-image {
+        width: 50%;
+        margin: 0% 25%;
+    }
+    .web-ui .categories-price .card-image {
+        width: 50%;
+        margin: 0% 25%;
+    }
+    
+    
+    .web-ui .footer .container .row .col-md-3 .footer-content-1 {
+        width: 50%;
+        margin: 0% 25%;
+        padding-left: 0;
+    }
+    .web-ui .footer .container .row .col-md-2 .footer-content-2 {
+        display: block;
+    }
+    .web-ui .footer .container .row .col-md-2 .footer-content-2 {
+        width: 50%;
+        margin: 0% 25%;
+        padding-left: 0;
+    }
+    .web-ui .footer .container .row .col-md-3 .footer-content-3 {
+        width: 50%;
+        margin: 0% 25%;
+        padding-left: 0;
+    }
+    .web-ui .footer .container .row .col-md-2 .footer-content-4 {
+        width: 50%;
+        margin: 0% 25%;
+        padding-left: 0;
+    }
+    .web-ui .footer .container .row .col-md-2 .footer-content-5 {
+        display: block;
+    }
+    .web-ui .footer .container .row .col-md-2 .footer-content-5 {
+        width: 50%;
+        margin: 0% 25%;
+        padding-left: 0;
+    }
+    .web-ui .footer .col-md-3 .footer-content-3 .payment-logo .visa-card {
+        margin-top: 0;
+        padding-left: 10px;
+    }
+    .web-ui .login-header .login-form-content {
+        width: 100%;
+        margin-left: 0;
+    }
+    .web-ui .signup-header .signup-form-content {
+        width: 100%;
+        margin-left: 0;
+    }
+    .web-ui .enable-btn {
+        height: 80px;
+    }
+    .web-ui .enable-btn p {
+        font-size: 15px;
+    }
+    .web-ui .menu-icon ol li .fa-bell {
+        margin-top: 30px;
+    }
+    .web-ui .menu-icon ol li .fa-cart-plus {
+        margin-top: 30px;
+    }
+    .web-ui .menu-icon ol li .fa-user {
+        margin-top: 22px;
+    }
+    .web-ui .header {
+        padding-top: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:680px)
+{
+    body {
+        background: #FEFEFE;
+    }
+    .web-ui {
+        display: none;
+    }
+    .mobile-ui {
+        display: block;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:576px)
+{
+    .mobile-ui .header-first .logo {
+        margin-left: 0;
+    }
+    .mobile-ui .header-first .box-container {
+        margin-left: 0;
+    }
+    .mobile-ui .header-first .search-icon {
+        margin-right: 0;
+    }
+    .mobile-ui .discount-price .card-image {
+        width: 94%;
+        height: 90px;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    .mobile-ui .bg-light .col-sm-12 .col-sm-3 {
+        width: 25%;
+    }
+    .mobile-ui .discount-item .container .row .col-sm-6 {
+        width: 50%;
+    }
+    
+    
+    
+    
+    
+    .mobile-ui .categories-item .container .row .col-md-12:nth-child(1) {
+        margin: 5px 0 10px 0;
+    }
+    .mobile-ui .categories-price .card-image {
+        width: 94%;
+        height: 60px;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    .mobile-ui .categories-item .col-sm-12 .small-container-1 .row .col-sm-4 {
+        width: 33.33%;
+    }
+    .mobile-ui .categories-item .col-sm-12 .small-container-2 .row .col-sm-4 {
+        width: 33.33%;
+    }
+    
+    
+    
+    
+    
+    .mobile-ui .cart-details .cart-image-first .col-sm-2 {
+        margin-top: 10px;
+    }
+    .mobile-ui .cart-details .cart-image-first .col-sm-7 {
+        padding-left: 90px;
+    }
+    .mobile-ui .cart-details .cart-image-first h6 {
+        padding-left: 5px;
+    }
+    .mobile-ui .cart-details .cart-image-last .col-sm-2 {
+        margin-top: 10px;
+    }
+    .mobile-ui .cart-details .cart-image-last .col-sm-7 {
+        padding-left: 90px;
+    }
+    .mobile-ui .cart-details .cart-image-last h6 {
+        padding-left: 5px;
+    }
+    .mobile-ui .cart-details .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .mobile-ui .product-details .single-product .middle-area-2 ul {
+        margin-left: 85px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:550px)
+{
+    .mobile-ui .header-first .container .col-md-12 .col-sm-8 {
+        width: 65%;
+    }   
+}
+
+
+
+
+
+/*
+@media only screen and (max-width:620px)
+{
+    .web-ui .enable-btn .center {
+        padding-bottom: 0;
+    }
+}
+
+
+
+@media only screen and (max-width:480px)
+{
+    .web-ui .footer .col-md-3 .footer-content-3 .payment-logo .visa-card {
+        margin-top: 10px;
+    }
+    .web-ui .about-product {
+        height: 600px;
+    }
+    .web-ui .enable-btn {
+        height: 80px;
+    }
+    .web-ui .enable-btn p {
+        font-size: 12px;
+    }
+}
+*/

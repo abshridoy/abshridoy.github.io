@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-----REQUIRED META TAGS----->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A Business Website">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product Details</title>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+<!-----BOOTSTRAP CDN FOR CSS----->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<!-----GOOGLE FONTS----->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<!-----FONT AWESOME----->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<!-----VENDORS FILES----->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+<!-----RESOURCES FILES----->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/style-mobile.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+
+
+
+
+
+
+
+
+
+
+<body>
+<!------------------------------------******------------------------------------>
+<!------------------------------------WEB-UI------------------------------------>
+<!------------------------------------******------------------------------------>
+<section class="web-ui">
+
+
+
+
+
+<!------------Start-Nav-Section------------>
+<div class="top-nav-bar">
+
+
+
+
+
+<div class="container">
+<div class="row">     
+       
+       
+       
+<div class="col-md-4">
+
+<div class="mobile-menu">
+    <span onClick="openNav()"><img src="resources/img/menu-icon.png"></span>
+<!------------Mobile-Menu------------>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" onClick="closeNav()" class="closebtn">&times;</a>
+            <div class="overlay-content">
+                <a onClick="closeNav()" href="index.html">Home</a>
+                <a onClick="closeNav()" href="product.html">Products</a>
+                <a onClick="closeNav()" href="product-details.html" class="active">Product Details</a>
+                <a onClick="closeNav()" href="cart.html">Add To Cart</a>
+                <a onClick="closeNav()" href="login.html">Login</a>
+                <a onClick="closeNav()" href="signup.html">Signup</a>
+                <a onClick="closeNav()" href="account.html">Account</a>
+            </div>
+        </div>
+ 
+         
+                         
+<!------------Logo------------>
+    <a href="index.html"><img src="resources/img/Logo.png" class="logo"></a>   
+           
+</div>
+      
+</div>
+        
+        
+               
+<!------------Search-Box------------>       
+<div class="col-md-6">
+      
+    <div class="box-container">
+        <table class="elements-container">
+            <tr>
+                <td>
+                    <input type="text" class="search">
+                </td>
+                <td>
+                    <a href="#"><img src="resources/img/search-icon.png" alt="Search"></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+        
+</div>
+        
+        
+                      
+<!------------Menu-Icon------------>        
+<div class="col-md-2">          
+ <div class="menu-icon">
+  <ol>
+ 
+    <li><a href="#"><i class="far fa-bell"></i></a></li>
+  
+    <li><a href="cart.html"><i class="fas fa-cart-plus"></i></a></li>
+    
+   
+<li class="nav-item dropdown">
+      <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="far fa-user"></i></a>   
+   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="login.html">Login</a>
+      <a class="dropdown-item" href="signup.html">Register</a>
+   <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#" style="color: #D62929;">More</a>
+   </div>
+</li>           
+                    
+  </ol>
+ </div>           
+</div>
+        
+        
+       
+</div>
+</div>
+
+
+
+
+
+</div>
+<!------------End-Nav-Section------------>
+
+
+
+
+
+
+
+
+
+
+<!------------Start-Product-Details-Header-Section------------>
+<section class="product-details-header">
+
+<!------------Product-Page------------> 
+<div class="container">
+  <div class="row">
+
+
+
+
+
+<div class="col-md-12">
+ <div class="categories-bar">
+  <div class="progress">
+      
+  
+  <div class="progress-bar bg-colour" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+  <span>Categories&nbsp;&nbsp;<i class="fas fa-angle-down" style="color: white;"></i></span>
+  </div>
+  
+  <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+  <span>Global Collection
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Discount</span>
+  </div>
+  
+  
+  </div>
+ </div>
+</div> 
+   
+   
+   
+   
+   
+ </div>
+</div>
+    
+</section>
+<!------------End-Product-Details-Header-Section------------>
+
+
+
+<!------------Start-Product-Details-Section------------>
+
+
+<!-----Single-Product-Details----->                   
+                                          
+                                                                                    
+<section class="product-details">                         
+<div class="container">
+<div class="row">
+   
+   
+
+<div class="col-md-3">
+    <img src="resources/img/product-details-1.png" id="ProductImg">   
+</div>
+                                                             
+ 
+
+<div class="col-md-5">
+<div class="single-product">
+             
+              <div class="middle-area-1">
+                <p>Red Full Sleeve T-Shirt</p>
+                <h6>&#2547; 300</h6>
+                <small>&#2547; 350</small>
+              </div>
+                
+               
+              <div class="middle-area-2">
+                  <ul>
+                    <li><p> Size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Int &nbsp;</p></li>
+                
+                    <li><small>M</small></li>
+                    <li><small>L</small></li>
+                    <li><small>XL</small></li>
+                  </ul>
+              </div>
+               
+               <div class="middle-area-3">
+                 <p>Color Family&nbsp;</p>
+                  <img src="resources/img/product-details-color1.png">
+                  <img src="resources/img/product-details-color2.png">
+                  <img src="resources/img/product-details-color3.png">
+               </div>
+                
+               <div class="middle-area-4">
+                <div class="spinner">
+                 <p>Quantity &nbsp;&nbsp;</p>
+                  <button class="btn" v-on:click="value--"><img src="resources/img/minus-pro-big.png" alt="+"></button>
+                  <span class="btn">{{value}}</span>
+                  <button class="btn" v-on:click="value++"><img src="resources/img/plus-big.png" alt="-"></button>
+                </div>
+              </div>
+               
+              
+              <div class="middle-area-5"> 
+                <p><b>Shipping:</b>&nbsp; &#2547; 300</p>
+                <small>To Chittagong via REDX&nbsp; <i class="fas fa-angle-down"></i></small> 
+                <p>Estimated Delivery:&nbsp; 5 - 7 Days&nbsp;<i class="far fa-question-circle"></i></p>
+              </div>
+               
+                 
+              <div class="product-details-btn">
+                <button class="buy-btn"><a href="#">BUY NOW</a></button>
+                <button class="add-to-cart-btn"><a href="#">ADD TO CART</a></button>
+              </div>
+                         
+</div>  
+</div>
+    
+
+
+
+
+<div class="col-md-4">
+    
+        <div class="delivery-option">
+            
+            <p style="color: #9A9A9A;">Delivery Options</p>
+            
+            <p style="margin-top: 10px;"><img src="resources/img/location-pin.png">Dhaka, Dhaka North, Banani Road No. 12 - 19<a href="#" style="color: #e61c1c; float: right; font-size: 14px; text-decoration: none;">Change</a></p>
+        
+           
+            <p style="margin-top: 10px;"><img src="resources/img/delivery-truck.png">Home Delivery</p>
+            <small style="float: left; margin-left: 10%; color: #808080; line-height: 10px;">5-9 Days</small><small style="float: right; color: #555; line-height: 10px;">&#2547; 60</small>
+            
+            <br>
+            
+            <p style="margin-top: 10px;"><img src="resources/img/cash-od.png">Cash On Delivery Available</p>
+            <small style="float: left; margin-left: 10%; color: #808080; line-height: 10px;">Return & Warranty</small>
+            
+            <br>
+            
+            <p style="margin-top: 10px;"><img src="resources/img/return-left.png" style="margin-bottom: 5px;">7 Days Return</p>
+            <small style="float: left; margin-left: 10%; color: #808080; line-height: 10px;">Change Of Mind Available</small>
+            
+            <br>
+           
+            <p style="margin-top: 8px;"><img src="resources/img/shield-slash.png">Warranty Isn't Available</p>
+            
+        </div>
+       
+</div>
+
+    
+</div>
+</div> 
+</section>  
+<!------------End-Product-Details-Section------------>
+<br>
+
+
+
+
+
+<!------------Start-About-Product-Section------------>
+<div class="container">
+ <div class="row">
+
+
+   
+      
+            
+   <div class="col-md-10">
+     <div class="about-product">
+       
+        <h5>Product details of Crazy Half Sleeve T-shirt For Men</h5>
+        
+         <div class="row">
+         <div class="col-md-6">
+             <ul>
+                 <li>Fabric: Taiwan CVC Favric.</li>
+                 <li>Fabric GSM: 165-170.</li>
+                 <li>100% Export Quality and 100% Quality control T-Shirt.</li>
+                 <li>T-Shirt Measurement: Asian and Regular Fit.</li>
+                 <li>Quality: Vector Brand original T-Shirt.</li>
+                 <li>Status: Comfortable and Fashionable Exclusive T-shirt.</li>
+                 <li>Size: S, M, L, XL</li>
+                 <li>Size: S=Long-26, Chest-34</li>
+             </ul>
+         </div>
+         
+         
+         
+         <div class="col-md-6">
+             <ul>
+                 <li>M=Long-27, Chest-36</li>
+                 <li>L=Long-28, Chest-38</li>
+                 <li>XL=Long-29, Chest-40</li>
+                 <li>Color: White</li>
+                 <li>Gender: Men</li>
+                 <li>Main Material: Cotton</li>
+             </ul>
+         </div>
+         </div>
+         
+         <h6>A T-shirt is a style of men fabric shirt, named after the T shape of the body and sleeves. It is normally associated with short sleeves, a round neckline, known as a crew neck, with no collar. T-shirts are generally made of a light, inexpensive fabric, and are easy to clean</h6>
+               
+     </div>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+<!------------Start-Discount-Items-Section------------>
+<section class="discount-item">
+
+
+
+
+<!------------Headline------------>
+
+<div class="row">
+
+<div class="col-md-6"> 
+ <p style="color: #000000; font-size: 18px;">People Who Viewed This Item Also Viewed</p>
+</div>
+<div class="col-md-6"></div>
+
+</div>
+
+
+
+
+<!------------Main-Section------------>
+<div class="about-product-2">
+<div class="row">
+
+
+<div class="col-md-3">
+<div class="discount-price">
+ <img src="resources/img/product-details-4.png" class="card-image">
+  <h5>Red Full Sleeve T-Shirt</h5>
+  <h6>&#2547; 350</h6>
+    <p>&#2547; 300</p>
+</div>
+</div>
+  
+<div class="col-md-3">
+<div class="discount-price">
+ <img src="resources/img/product-details-5.png" class="card-image">
+  <h5>Red Full Sleeve T-Shirt</h5>
+  <h6>&#2547; 350</h6>
+    <p>&#2547; 300</p>
+</div>
+</div>
+  
+<div class="col-md-3">
+<div class="discount-price">
+ <img src="resources/img/product-details-6.png" class="card-image">
+  <h5>Original Headphone</h5>
+   <h6>&#2547; 27,000</h6>
+    <p>&#2547; 20,000</p>
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+<!------------End-Discount-Items-Section------------>
+     
+     
+     
+  
+     
+</div>
+   
+
+   
+
+      
+     <div class="col-md-2">
+        <h4 style="text-align: center; font-size: 18px; color: #000000; padding: 15px 0;">Best Seller</h4>
+        <div class="best-seller">
+          <img src="resources/img/product-details-2.png" class="card-image">
+          <h5>Original Headphone</h5>
+          <h6>&#2547; 27,000</h6>
+          <p>&#2547; 20,000</p>
+        </div>
+        
+        <div class="best-seller">
+          <img src="resources/img/product-details-3.png" class="card-image">
+          <h5>Apple Watch Series 4</h5>
+          <h6>&#2547; 52,000</h6>
+          <p>&#2547; 45,000</p>
+        </div>
+            
+     </div>   
+   
+   
+ 
+ 
+ 
+ </div>
+</div>
+<!------------End-About-Product-Section------------>
+
+
+
+
+
+
+
+
+
+<!------------Start-Footer-Section------------>
+<section class="footer"> 
+         
+         
+         
+         
+         
+<div class="container">
+<div class="row">
+ 
+                         
+
+<!-----Footer-Content-1----->
+<div class="col-md-3">
+
+  <div class="footer-content-1">
+    <ul>
+        <li><img src="resources/img/Barcode-Scanner.png" class="bar-code"></li>
+        
+        <li>
+        <h5>Download</h5>
+        <a href="#"><img src="resources/img/play-store.png" class="play-store"></a>
+        <br>
+        <a href="#"><img src="resources/img/app-store.png" class="app-store"></a>
+        </li>
+    </ul>
+  </div>
+  
+</div>
+
+
+
+<!-----Footer-Content-2----->
+<div class="col-md-2">
+
+<div class="footer-content-2">
+<h5>Customer Care</h5>
+    <ul>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">How To Buy</a></li>
+        <li><a href="#">Track Your Order</a></li>
+        <li><a href="#">Returns & Refunds</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  
+</div>
+
+
+
+<!-----Footer-Content-3----->
+<div class="col-md-3">
+
+<div class="footer-content-3">
+<h5>Payment Methods</h5>
+    <div class="payment-logo">
+        <a href="#"><img src="resources/img/bkash.png" class="bkash"></a>
+        <a href="#"><img src="resources/img/master-card.png" class="master-card"></a>
+        <a href="#"><img src="resources/img/visa-card.png" class="visa-card"></a>
+        <br>
+        <a href="#"><img src="resources/img/cash-on-delivery.png" class="cash-on-delivery"></a>
+    </div>
+</div>
+
+</div>
+
+
+
+<!-----Footer-Content-4----->
+<div class="col-md-2">
+
+<div class="footer-content-4">
+<h5>Get In Touch</h5>
+    <ul>
+        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="https://www.instagram.com/"><img src="resources/img/instagram.png" class="instagram"></a></li>
+    </ul>                
+</div>
+
+</div>
+
+
+
+<!-----Footer-Content-5----->
+<div class="col-md-2">
+
+  <div class="footer-content-5">
+   <h5>Verified By</h5>
+    <a href="#"><img src="resources/img/pci-verified.png"></a>  
+  </div>
+  
+</div>
+
+
+  
+  
+
+  </div>
+ </div>
+</section>
+
+
+
+
+
+<!-----Footer-Content-Copyright----->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+          <div class="copyright">
+           <p>&copy;&nbsp; 2020 Shelaigor. All rights reserved.</p>
+           </div> 
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!------------End-Footer-Section------------>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------*********------------------------------------>
+<!------------------------------------MOBILE-UI------------------------------------>
+<!------------------------------------*********------------------------------------>
+<section class="mobile-ui">
+
+
+
+
+
+<!------------Start-Header-Section------------>
+<section class="header">
+  <div class="container">
+    <div class="row">
+    
+<div class="col-md-12">
+<div class="row d-flex justify-content-between">
+
+
+
+<div class="d-flex justify-content-start">
+<!------------Back-Option------------>
+    <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+<!------------Current-Page-Option------------>
+    <a href="#"><h6>Product Details</h6></a>
+</div>
+
+  
+<div class="d-flex justify-content-start">
+<!------------Menu-Icons------------>  
+    <a href="#"><i class="fas fa-search"></i></a>
+    <a href="#"><i class="fas fa-cart-plus"></i></a>
+
+
+
+<div class="mobile-menu-small">
+    <span onClick="openMobileNav()"><i class="fas fa-ellipsis-v"></i></span>
+<!------------Small-Mobile-Menu------------>
+        <div id="mobileNav" class="overlay">
+            <a href="javascript:void(0)" onClick="closeMobileNav()" class="closebtn">&times;</a>
+            <div class="overlay-content">
+                <a onClick="closeMobileNav()" href="index.html">Home</a>
+                <a onClick="closeMobileNav()" href="product.html">Products</a>
+                <a onClick="closeMobileNav()" href="product-details.html" class="active">Product Details</a>
+                <a onClick="closeMobileNav()" href="cart.html">Add To Cart</a>
+                <a onClick="closeMobileNav()" href="login.html">Login</a>
+                <a onClick="closeMobileNav()" href="signup.html">Signup</a>
+                <a onClick="closeMobileNav()" href="account.html">Account</a>
+            </div>
+        </div>
+</div>
+      
+</div>
+
+
+</div>
+</div>
+  
+   </div>
+  </div>
+</section>
+<!------------End-Header-Section------------>
+
+
+
+
+
+
+
+
+
+
+<!------------Start-Product-Details-Section------------>                      
+<section class="product-details">                      
+<div class="container">
+
+
+
+
+
+<div class="row">
+    <div class="col-sm-12">
+        <img src="resources/small-device-img/product-details-cover.png" class="product-img">
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-sm-12">
+       
+       
+
+<!-----Single-Product-Details----->
+<div class="row">
+<div class="single-product">              
+        <div class="row">
+            <div class="col-sm-12">
+                <h5>Red Full Sleeve T-Shirt For Men</h5>
+            </div>
+        </div>
+        
+        
+            <div class="row">
+                <div class="col-sm-6" style="text-align: center;">
+                    <div class="middle-area-1">
+                     <h6>Color Family</h6>
+                      <img src="resources/small-device-img/product-details-color1.png">
+                      <img src="resources/small-device-img/product-details-color2.png">
+                      <img src="resources/small-device-img/product-details-color3.png">
+                    </div>
+                </div>
+                
+                <div class="col-sm-6" style="text-align: center;">
+                    <div class="middle-area-2">
+                     <h6>Size</h6>
+                      <ul>
+                        <li><p>Int</p></li>
+                        <li><small>M</small></li>
+                        <li><small>L</small></li>
+                        <li><small>XL</small></li>
+                      </ul>
+                   </div>
+                </div>
+            </div>    
+            
+            <div class="row">
+                <div class="col-sm-6" style="text-align: center;">
+                <div class="middle-area-3">
+                   <h6>Quantity</h6>
+                    <div class="spinner-3">
+                      <button class="btn" v-on:click="value--"><img src="resources/small-device-img/minus.png" alt="+"></button>
+                      <span class="btn">{{value}}</span>
+                      <button class="btn" v-on:click="value++"><img src="resources/small-device-img/plus.png" alt="-"></button>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="col-sm-6" style="text-align: center;">
+                <div class="middle-area-4">
+                   <h6>Price</h6>   
+                    <p>&#2547; 300</p>
+                    <small>&#2547; 350</small>
+                </div>
+                </div>
+            </div>
+     
+           
+</div>
+</div>               
+        
+        
+
+<!-----About-Product-Details----->
+<div class="row">               
+<div class="about-product">
+    <div class="row">
+            
+        <div class="col-sm-12">
+             <h5>Product details of Crazy Half Sleeve T-shirt For Men</h5>
+               <ul>
+                 <li>Fabric: Taiwan CVC Favric.</li>
+                 <li>Fabric GSM: 165-170.</li>
+                 <li>100% Export Quality and 100% Quality control T-Shirt.</li>
+                 <li>T-Shirt Measurement: Asian and Regular Fit.</li>
+                 <li>Quality: Vector Brand original T-Shirt.</li>
+                 <li>Status: Comfortable and Fashionable Exclusive T-shirt.</li>
+                 <li>Size: S, M, L, XL</li>
+                 <li>Size: S=Long-26, Chest-34</li>
+               </ul>
+               <ul>
+                 <li>M=Long-27, Chest-36</li>
+                 <li>L=Long-28, Chest-38</li>
+                 <li>XL=Long-29, Chest-40</li>
+                 <li>Color: White</li>
+                 <li>Gender: Men</li>
+                 <li>Main Material: Cotton</li>
+               </ul>
+             <h6>A T-shirt is a style of men fabric shirt, named after the T shape of the body and sleeves. It is normally associated with short sleeves, a round neckline, known as a crew neck, with no collar. T-shirts are generally made of a light, inexpensive fabric, and are easy to clean.</h6>
+        </div>
+            
+    </div>
+</div>
+</div>
+        
+        
+
+<!------------HIDDEN                
+<div class="product-details-btn">
+    <button class="buy-btn"><a href="#">BUY NOW</a></button>
+    <button class="add-to-cart-btn"><a href="#">ADD TO CART</a></button>
+</div>
+------------>       
+              
+      
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+</div>  
+</section> 
+<!------------End-Product-Details-Section------------>
+<div class="container">
+<div class="row">
+<div class="container-content-break"></div>
+</div>
+</div>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+<!------------Srart-Just-For-You-Section------------>
+<section class="discount-item">
+
+
+
+<!------------Main-Section-1------------>
+<div class="container">
+<div class="row">
+
+
+
+<div class="col-sm-6">
+<div class="discount-price">
+ <img src="resources/small-device-img/Just-For-You-7.png" class="card-image">
+    <h5>Apple Watch Series 4</h5>
+    <h6>&#2547; 52,000</h6>
+    <p>&#2547; 45,000</p>
+</div>
+</div>
+ 
+<div class="col-sm-6">
+<div class="discount-price">
+ <img src="resources/small-device-img/Just-For-You-8.png" class="card-image">
+    <h5>Bayern Munchen Kit</h5>
+    <h6>&#2547; 27,000</h6>
+    <p>&#2547; 20,000</p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<div class="container">
+<div class="row">
+<div class="container-break"></div>
+</div>
+</div>
+
+
+
+
+
+<!------------Main-Section-2------------>
+<div class="container">
+<div class="row">
+
+
+
+<div class="col-sm-6">
+<div class="discount-price">
+ <img src="resources/small-device-img/Just-For-You-1.png" class="card-image">
+    <h5>Red Full Sleeve T-Shirt</h5>
+    <h6>&#2547; 350</h6>
+    <p>&#2547; 300</p>
+</div>
+</div>
+ 
+<div class="col-sm-6">
+<div class="discount-price">
+ <img src="resources/small-device-img/Just-For-You-10.png" class="card-image">
+    <h5>Apple Watch Series 4</h5>
+    <h6>&#2547; 52,000</h6>
+    <p>&#2547; 45,000</p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+</section>
+<!------------End-Just-For-You-Section------------>
+<!------------Start-Footer-Section------------>
+<section class="home-menu">
+  
+  <div class="container">
+      <div class="row">
+         
+         <div class="col-md-12">
+           <div class="home-primary">
+            <div class="row d-flex justify-content-between">
+             <div class="home-icons">
+              <a href="index.html" style="text-decoration: none;"><h6><i class="fas fa-home"></i>Home</h6></a>
+             </div>
+                <div class="product-details-btn">
+                    <button class="buy-btn"><a href="#">Buy Now</a></button>
+                    <button class="add-to-cart-btn"><a href="#">Add To Cart</a></button>
+                </div>
+            </div>
+           </div>
+         </div>
+      
+    </div>
+  </div>
+   
+</section>
+<!------------End-Footer-Section------------>
+<div class="container" style="height: 65px;"></div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-----JS SCRIPT FILES----->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+<script src="vendors/js/html5shiv.min.js"></script>
+<script src="vendors/js/selectivizr-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+<script src="resources/js/main.js"></script>
+ 
+
+<!-- Google Analytics: Change UA-XXXXX-Y To Be Your Site's ID. -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-XXXXX-Y');
+    </script>
+
+
+
+
+
+</body>
+</html>

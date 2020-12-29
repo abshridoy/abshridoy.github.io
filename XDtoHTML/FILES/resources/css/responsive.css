@@ -1,0 +1,340 @@
+@media only screen and (max-width: 1440px)
+{
+    .hide-nav {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width:1300px)
+{
+    .top-nav-bar {
+        height: 65px;
+    }
+    .serach-box {
+       width: 100%; 
+    }
+    .menu-bar {
+        width: 100%;
+    }
+    .menu-bar ul {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .menu-bar ul li {
+        width: 100%;
+        height: 60px;
+    }
+    .header .side-menu {
+        height: 100%;
+        width: 25%;
+        font-size: 14px;
+        z-index: 20;
+        margin-left: 3%;
+    }
+    .header .side-menu ul li:hover p {
+        width: 350px;
+        font-size: 12px;
+        top: 80px;
+        margin-left: 25%;
+        height: 400px;
+    }
+    .cover-photo {
+        width: 63%;
+        margin-right: 3%; 
+    }
+}
+
+
+
+@media only screen and (max-width:1200px)
+{
+     .header .side-menu {
+        height: 100%;
+        width: 30%;
+        font-size: 14px;
+        z-index: 20;
+        margin-left: 3%;
+    }
+     .header .side-menu ul li:hover p {
+        width: 350px;
+        font-size: 12px;
+        top: 80px;
+        margin-left: 30%;
+        height: 400px;
+    }
+    .cover-photo {
+        width: 58%;
+        margin-right: 3%; 
+    }
+}
+
+
+
+@media only screen and (max-width:980px)
+{
+    .form-control {
+        margin-left: 0;
+    }
+    .input-group-text {
+        margin: 10px 10px 25px 0 !important;
+    }
+    .header .side-menu {
+        height: 100%;
+        width: 30%;
+        font-size: 12px;
+        z-index: 20;
+        margin-left: 3%;
+    }
+    .header .side-menu ul li:hover p {
+        width: 300px;
+        font-size: 10px;
+        top: 80px;
+        margin-left: 30%;
+        height: 370px;
+    }
+    .header .categories-top {
+        font-size: 14px;
+    }
+    .top-nav-bar .serach-box .menu-img {
+        display: none;
+    }
+    .cover-photo {
+        height: 360px;
+        width: 58%;
+        margin-right: 3%;
+    }
+    .footer-content-3 ul {
+        font-size: 18px;
+        margin: 5% 0;
+    }
+}
+
+
+
+@media only screen and (max-width:768px)
+{
+    .header .side-menu {
+        height: 100%;
+        width: 35%;
+        font-size: 12px;
+        z-index: 20;
+        margin-left: 3%;
+    }
+    .header .side-menu ul li:hover p {
+        width: 250px;
+        font-size: 10px;
+        top: 80px;
+        margin-left: 35%;
+        height: 370px;
+    }
+    .cover-photo {
+        width: 53%;
+        margin-right: 3%; 
+    }
+    .overlay a {
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        color: #CC0022;
+    }
+    .overlay .overlay-content .active {
+        color: #00CC00;
+    }
+    .overlay .overlay-content .active:hover {
+       color: #333;
+       background: linear-gradient(aqua,#ffd6d6) !important;
+       transform: scale(1.1);
+       transition: 0.5s;
+    }
+    .overlay .closebtn {
+        font-size: 45px;
+        top: 10px;
+        right: 10px;
+        color: red;
+    }
+    .discount-price .card-image {
+        width: 50%;
+        margin: 0% 25%;
+    }
+    .categories-price .card-image {
+        width: 50%;
+        margin: 0% 25%;
+    }
+    .just-for-you-price .card-image {
+        width: 50%;
+        margin: 0% 25%;
+    }
+    .categories-bar .heading-3 {
+        display: none;
+    }
+    .footer h5 {
+        margin-bottom: 1%;
+        font-size: 18px;
+    }
+    
+    .footer-content-1 img {
+        width: 40%;
+        margin: 5% 30%;
+    }
+    .footer-content-2 .app-logo img {
+        width: 60%;
+        margin: 1% 20%;
+    }
+    .footer-content-2 .app-logo{
+        margin: 5% 0;
+    }
+    .footer-content-3 ul {
+        font-size: 18px;
+        margin: 5% 0;
+    }
+    .footer-content-4 .payment-logo {
+        margin: 5% 25%;
+        width: 50%;
+    }
+    .footer-content-5 .row {
+        width: 50%;
+        margin: 5% 25%;
+    }
+    .facebook {
+        width: 40%;
+        margin-bottom: 10px;
+        margin-left: 30%;
+        display: block;
+    }
+    .twitter {
+        width: 40%;
+        margin-bottom: 10px;
+        margin-left: 30%;
+        display: block;
+    }
+    .instagram {
+        width: 40%;
+        margin-bottom: 10px;
+        margin-left: 30%;
+        display: block;
+    }
+    .footer-content-6 img {
+        width: 50%;
+        margin: 5% 25%;
+    }
+    .cart-page {
+        margin: 60px auto;
+    }
+    .serach-box {
+       width: 95%; 
+    }
+}
+
+
+
+@media only screen and (max-width:620px)
+{
+    .header .side-menu {
+        height: 100%;
+        width: 40%;
+        font-size: 12px;
+        z-index: 20;
+        margin-left: 3%;
+    }
+    .cover-photo {
+        width: 48%;
+        margin-right: 3%; 
+    }
+    .header .side-menu ul li:hover p {
+        width: 210px;
+        font-size: 10px;
+        top: 80px;
+        margin-left: 40%;
+        height: 370px;
+    }
+    .serach-box {
+       width: 80%; 
+    }
+    .input-group-text {
+       margin: 10px 0px 50px 0 !important;
+    }
+
+
+
+@media only screen and (max-width:480px)
+{
+     .header .side-menu {
+        height: 100%;
+        width: 40%;
+        font-size: 12px;
+        z-index: 20;
+        margin-left: 3%;
+    }
+    .cover-photo {
+        width: 48%;
+        margin-right: 3%; 
+    }
+    .header .side-menu ul li:hover p {
+        width: 210px;
+        font-size: 10px;
+        top: 80px;
+        margin-left: 40%;
+        height: 370px;
+    }
+    .serach-box {
+        width: 30%; 
+    }
+    .enable-btn p {
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+}
+
+
+
+@media only screen and (max-width:420px)
+{
+    .form-control {
+       display: none;
+    }
+    .input-group-text {
+       display: none;
+    }
+    .categories-bar .heading-2 {
+        display: none;
+    }
+    .header .side-menu {
+        display: none;
+    }
+    .cover-photo {
+        height: 250px;
+        width: 94%;
+        margin-right: 3%;
+    }
+    .overlay a {
+        font-size: 16px;
+    }
+    .top-nav-bar .serach-box .menu-img {
+        display: block;
+    }
+    ol li .fa-cart-plus{
+        font-size: 25px;
+        margin-left: 0;
+        margin-right: 8px;
+        margin-top: 5px;
+    }
+    ol li .fa-user{
+        font-size: 25px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 5px;
+    }
+    ol li .fa-chevron-circle-down{
+        display: none;
+    }
+    .mobile-menu span img {
+        margin-top: 18px;
+    }
+    .logo {
+        margin-right: 0;
+    }
+    .account-info-item h4 {
+        font-size: 20px;
+    }
+}

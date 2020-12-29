@@ -1,0 +1,878 @@
+/* ==================== */
+    /* BASIC SETUP */
+/* ==================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+    color: #404040;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* ==================== */
+/* REUSABLE COMPONENTS */
+/* ==================== */
+
+.container {
+    max-width: 1400px;
+}
+ul li {
+    list-style-type: none;
+}
+
+
+.list-group {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.list-group .list-group-item {
+    font-weight: bold;
+    color: #501876;
+    text-align: center;
+}
+.list-group .active {
+    background: #501876;
+    color: #ccc;
+}
+
+
+
+/* ==================== */
+/* NAVIGATION SECTION */
+/* ==================== */
+
+
+
+
+/* ==================== */
+       /* PART-1 */
+/* ==================== */
+
+ @keyframes beginBrowserAutofill {
+                0% {
+                }
+                to {
+                }
+            }
+            @keyframes endBrowserAutofill {
+                0% {
+                }
+                to {
+                }
+            }
+            .pac-container {
+                background-color: #fff;
+                position: absolute !important;
+                z-index: 1000;
+                border-radius: 2px;
+                border-top: 1px solid #d9d9d9;
+                font-family: Arial, sans-serif;
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                overflow: hidden;
+            }
+            .pac-logo:after {
+                content: "";
+                padding: 1px 1px 1px 0;
+                height: 18px;
+                box-sizing: border-box;
+                text-align: right;
+                display: block;
+                background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3.png);
+                background-position: right;
+                background-repeat: no-repeat;
+                background-size: 120px 14px;
+            }
+            .hdpi.pac-logo:after {
+                background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3_hdpi.png);
+            }
+            .pac-item {
+                cursor: default;
+                padding: 0 4px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                line-height: 30px;
+                text-align: left;
+                border-top: 1px solid #e6e6e6;
+                font-size: 11px;
+                color: #999;
+            }
+            .pac-item:hover {
+                background-color: #fafafa;
+            }
+            .pac-item-selected,
+            .pac-item-selected:hover {
+                background-color: #ebf2fe;
+            }
+            .pac-matched {
+                font-weight: 700;
+            }
+            .pac-item-query {
+                font-size: 13px;
+                padding-right: 3px;
+                color: #000;
+            }
+            .pac-icon {
+                width: 15px;
+                height: 20px;
+                margin-right: 7px;
+                margin-top: 6px;
+                display: inline-block;
+                vertical-align: top;
+                background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png);
+                background-size: 34px;
+            }
+            .hdpi .pac-icon {
+                background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons_hdpi.png);
+            }
+            .pac-icon-search {
+                background-position: -1px -1px;
+            }
+            .pac-item-selected .pac-icon-search {
+                background-position: -18px -1px;
+            }
+            .pac-icon-marker {
+                background-position: -1px -161px;
+            }
+            .pac-item-selected .pac-icon-marker {
+                background-position: -18px -161px;
+            }
+            .pac-placeholder {
+                color: gray;
+            }
+            .pac-target-input:-webkit-autofill {
+                animation-name: beginBrowserAutofill;
+            }
+            .pac-target-input:not(:-webkit-autofill) {
+                animation-name: endBrowserAutofill;
+            }
+
+
+
+/* ==================== */
+       /* PART-2 */
+/* ==================== */
+
+           @keyframes beginBrowserAutofill {
+                0% {
+                }
+                to {
+                }
+            }
+            @keyframes endBrowserAutofill {
+                0% {
+                }
+                to {
+                }
+            }
+            .pac-container {
+                background-color: #fff;
+                position: absolute !important;
+                z-index: 1000;
+                border-radius: 2px;
+                border-top: 1px solid #d9d9d9;
+                font-family: Arial, sans-serif;
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                overflow: hidden;
+            }
+            .pac-logo:after {
+                content: "";
+                padding: 1px 1px 1px 0;
+                height: 18px;
+                box-sizing: border-box;
+                text-align: right;
+                display: block;
+                background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3.png);
+                background-position: right;
+                background-repeat: no-repeat;
+                background-size: 120px 14px;
+            }
+            .hdpi.pac-logo:after {
+                background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3_hdpi.png);
+            }
+            .pac-item {
+                cursor: default;
+                padding: 0 4px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                line-height: 30px;
+                text-align: left;
+                border-top: 1px solid #e6e6e6;
+                font-size: 11px;
+                color: #999;
+            }
+            .pac-item:hover {
+                background-color: #fafafa;
+            }
+            .pac-item-selected,
+            .pac-item-selected:hover {
+                background-color: #ebf2fe;
+            }
+            .pac-matched {
+                font-weight: 700;
+            }
+            .pac-item-query {
+                font-size: 13px;
+                padding-right: 3px;
+                color: #000;
+            }
+            .pac-icon {
+                width: 15px;
+                height: 20px;
+                margin-right: 7px;
+                margin-top: 6px;
+                display: inline-block;
+                vertical-align: top;
+                background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png);
+                background-size: 34px;
+            }
+            .hdpi .pac-icon {
+                background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons_hdpi.png);
+            }
+            .pac-icon-search {
+                background-position: -1px -1px;
+            }
+            .pac-item-selected .pac-icon-search {
+                background-position: -18px -1px;
+            }
+            .pac-icon-marker {
+                background-position: -1px -161px;
+            }
+            .pac-item-selected .pac-icon-marker {
+                background-position: -18px -161px;
+            }
+            .pac-placeholder {
+                color: gray;
+            }
+            .pac-target-input:-webkit-autofill {
+                animation-name: beginBrowserAutofill;
+            }
+            .pac-target-input:not(:-webkit-autofill) {
+                animation-name: endBrowserAutofill;
+            }
+
+
+
+/* ==================== */
+       /* PART-3 */
+/* ==================== */
+
+            .gen-btn,
+            .button-block a.gen-btn,
+            .modal .modal-footer .btn {
+                background: #000;
+            }
+            .deliveraddressIcon-clo-av .cart_b .cart_count {
+                color: #0074ce;
+                background: #ffffff;
+            }
+            ul.tab-row.homepage li:before {
+                background-color: lightgreen;
+            }
+            header ul li a {
+                color: #000000;
+            }
+            .how-it-works-section ul li:first-child:before,
+            .how-it-works-section ul li:first-child:after,
+            .services ul li .service-block:hover a,
+            .benefits ul li i,
+            .benefits .benefits-right ul li i,
+            .get_app_area,
+            .howitworks .horizonatal-title h3:after,
+            .howitworks ul li:hover i:after,
+            .benefits .horizonatal-title h3:after,
+            .delivery-left button,
+            .destination ul li:hover .destination-caption,
+            .charters ul li:hover .charters-caption,
+            .dark-variant.benefits,
+            .article-image,
+            ul.tab-switch,
+            .invoice-pay-type,
+            .track-order-data ul li.passed i,
+            .profile-image i,
+            .booking-header,
+            .radio-button:after,
+            .check-button:after,
+            .custom-modal .model-header,
+            .custom-modal .modal-header,
+            .modal .modal-header,
+            .upload-block strong,
+            .booking-heading select option {
+                background-color: #501876;
+            }
+            .benefits.dark-variant ul.listing-style li i {
+                background-color: #045390;
+            }
+            .benefits.dark-variant ul.listing-style li {
+                border-color: #045390;
+            }
+            .benefits ul li:hover i {
+                background-color: #045390;
+            }
+            .footer-top,
+            .footer-bottom {
+                position: relative;
+                z-index: 1;
+                background-color: #0074ce;
+            }
+            .services.homepage ul li .service-block a::before {
+                background-color: #0074ce;
+            }
+            .footer-top:after,
+            .footer-bottom:after {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                z-index: -1;
+                background-color: rgba(0, 0, 0, 0.7);
+            }
+            ul.tab-row li span,
+            .categories-caption h2,
+            .how-it-works-section h3,
+            .how-it-works-section ul li strong,
+            .safety-section h3,
+            .call-section h3,
+            .signup-block a,
+            .services h3,
+            .benefits ul li:hover strong,
+            .cartype h3,
+            .article-right h4,
+            .article-right h4,
+            .call-section.taxi-variant h3,
+            .call-section.taxi-variant b,
+            .call-section.taxi-variant p b,
+            .fleet.food-variant h3,
+            .benefits h3,
+            .restaurant h3,
+            .howitworks h3,
+            .solutions h3,
+            .solutions-left h4,
+            .features h3,
+            .destination h3,
+            .charters h3,
+            .step-sec .step-sec-inner > h3,
+            .profile-title h4,
+            .heading-area h1,
+            .about-caption h3,
+            .gen-cms-page h2.header-page,
+            .faq-bottom-part ul li a,
+            .login-block-heading label,
+            .profile-caption .page-heading h1,
+            .thanks-holder h2,
+            .banner-section.taxi-app ul.tab-row li a {
+                color: #501876;
+            }
+            .page-contant-inner h2,
+            .header-page p {
+                color: #0074ce;
+            }
+            .header-page::before,
+            .contact-form b .submit-but {
+                background-color: #0074ce;
+            }
+            ul.tab-switch li.active a {
+                color: #0074ce;
+            }
+            .how-it-works-section.homepage-variant ul li strong {
+                color: #000;
+            }
+            .signup-block a:hover:hover,
+            .categories-caption h2 span {
+                color: #757575;
+            }
+            .categories-caption a.book-btn,
+            .call-section a.book-btn,
+            .btn-hold input[type="submit"],
+            .deliver-address button[type="submit"],
+            .gen-btn,
+            .profile-block .profile-caption-header button,
+            button.waves-effect,
+            .booking-footer .submitbtn,
+            .filter-form input[type="submit"],
+            .filter-form button,
+            .filter-form a.gen-btn,
+            .button-block a.gen-btn,
+            .fileUploading:before {
+                background-color: #000;
+            }
+            .categories-caption a.book-btn:hover,
+            .call-section a.book-btn:hover,
+            .btn-hold input[type="submit"]:hover,
+            .btn-hold input[type="submit"]:focus,
+            .deliver-address button[type="submit"]:hover,
+            .deliver-address button[type="submit"]:focus,
+            .gen-btn:hover,
+            .gen-btn:focus,
+            .profile-block .profile-caption-header button:hover,
+            button.waves-effect:hover,
+            button.waves-effect:focus,
+            .booking-footer .submitbtn:hover,
+            .booking-footer .submitbtn:focus,
+            .filter-form input[type="submit"]:hover,
+            .filter-form button:hover,
+            .filter-form a.gen-btn:hover,
+            .gen-btn:hover,
+            .button-block a.gen-btn:hover,
+            .button-block a.gen-btn:focus,
+            .fileUploading:hover:before {
+                background-color: #757575;
+            }
+            .how-it-works-section ul li:first-child:before {
+                box-shadow: 0 0 0 2px #0074ce inset;
+            }
+            .services ul li .service-block:hover {
+                box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06), 0 0 0 1px #0074ce;
+                -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06), 0 0 0 1px #0074ce;
+            }
+            .benefits.food-variant ul li i {
+                background-color: transparent;
+            }
+            .faq-top-part li.Active a {
+                box-shadow: 0 0 0 2px #501876 inset;
+                -webkit-box-shadow: 0 0 0 2px #501876 inset;
+                color: #501876;
+            }
+            .howitwork,
+            ul.tab-row li:after,
+            .banner-image-first.first-overlay::before {
+                background-color: #0074ce;
+            }
+            ul.user-menu,
+            ul.user-menu li.logo {
+                background-color: #045390;
+            }
+            .profile-image {
+                box-shadow: 0 0 0 2px #0074ce;
+            }
+            .earning-block,
+            .toggle-switch input[type="checkbox"]:checked ~ .toggle-base,
+            .toggle-switch input[type="radio"]:checked ~ .toggle-base {
+                background-color: #0074cecc;
+            }
+            .radio-button,
+            .check-button {
+                box-shadow: 0 0 0 1px #0074ce inset;
+            }
+            .thanks-holder img {
+                filter: invert(29%) sepia(98%) saturate(1233%) hue-rotate(184deg) brightness(97%) contrast(105%);
+            }
+            .benefits.dark-variant ul.listing-style li strong,
+            .benefits.dark-variant ul.listing-style li p,
+            .dark-variant.benefits h3,
+            .dark-variant.benefits .benefits-inner > strong,
+            .get_app_content .section_title h2,
+            .get_app_content p,
+            .get_app_content ul li,
+            ul.tab-switch li a,
+            .upload-block strong,
+            .custom-modal .model-header h4,
+            .modal .modal-header h4,
+            .custom-modal .model-header i,
+            .profile-image i,
+            .booking-header,
+            .pick-drop-location input::placeholder,
+            .invoice-pay-type,
+            .destination ul li:hover .destination-caption,
+            .charters ul li:hover .charters-caption,
+            .charters ul li:hover .charters-caption span,
+            .booking-heading select option,
+            header {
+                color: #ffffff;
+            }
+            .menu-ico span,
+            .menu-ico span::after,
+            .menu-ico span::before,
+            .services ul li .service-block:hover a,
+            .header-right ul li.login::after,
+            .header-right ul li.lang::after {
+                background-color: #ffffff;
+            }
+            header ul li a:hover,
+            header ul li a:hover,
+            header ul li a:focus,
+            header ul li a.active {
+                color: #ffffff;
+            }
+            .header-right ul li a {
+                color: #ffffff;
+                font-weight: bold;
+                letter-spacing: 0.5px;
+            }
+            header .header-right ul li a:hover {
+                color: orange;
+            }
+            .dropdown-content .column a:hover {
+                color: #000;
+            }
+            .header-left ul li a {
+                font-weight: bold;
+                letter-spacing: 0.5px;
+                color: #fff;
+                padding-left: 20px;
+            }
+            .header-left ul li a:hover {
+                color: orange;
+            }
+            .header-left ul li a::after {
+                background-color: #501876;
+            }
+            .services ul li .service-block:hover a {
+                background-color: #0074ce;
+            }
+            .services ul li .service-block:hover,
+            .services ul li .service-block:hover {
+                -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06), 0 0 0 1px #0074ce;
+            }
+            .benefits.dark-variant ul.listing-style li i img,
+            .get_app_content ul li::before,
+            .benefits ul li i img,
+            .benefits ul li i img,
+            .delivery-left button img {
+                filter: invert(0);
+                -webkit-filter: invert(0);
+            }
+            header ul li a img {
+                filter: invert(1);
+                -webkit-filter: invert(1);
+            }
+            header ul li a:hover img {
+                filter: invert(0);
+                -webkit-filter: invert(0);
+            }
+            .booking-heading select {
+                color: #ffffff;
+                filter: invert(0);
+                -webkit-filter: invert(0);
+            }
+            .gotop img {
+                filter: invert(0);
+                -webkit-filter: invert(0);
+            }
+            .gotop:hover img {
+                filter: invert(0);
+                -webkit-filter: invert(0);
+            }
+            .gotop {
+                background-color: #0074ce;
+            }
+            .gotop:hover {
+                background-color: #0074ce;
+            }
+
+
+
+.howitworks {
+    padding: 50px 0;
+    background-color: #f3f3f3;
+}
+.features {
+    margin-top: 0;
+    padding: 50px 0;
+    background-color: #f3f3f3;
+}
+
+
+
+/* ==================== */
+   /* HEADER SECTION */
+/* ==================== */
+
+.logo {
+    width: 45px;
+    height: 45px;
+    margin: auto 20px;
+    float: left;
+}
+.header-content-1 {
+    background: url(BG-img/header-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 220%;
+    background-attachment: fixed;
+    position: relative;
+}
+.header-content-2 {
+    background: url(BG-img/header-top-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 115%;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.banner-section h2 {
+    margin-top: 50px;
+    font-weight: 500;
+}
+.banner-section h2 span {
+    font-size: 38px;
+    color: #757575;
+    display: block;
+    padding-top: 10px;
+}
+.banner-section p {
+    padding: 25px 35px 25px 0;
+    line-height: 30px;
+}
+.banner-section .book-btn {
+    margin-bottom: 65px;
+}
+.banner-section .banner-btn {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    margin-bottom: 65px;
+    transition: 0.5s;
+}
+.banner-section .banner-btn:hover {
+    background: crimson;
+    color: black;
+    transform: scale(1.1);
+    
+}
+
+
+/*------------MAIN-NAVIGATION------------*/
+
+.main-nav {
+    background: #fff;
+    width: 95%;
+    margin-left: 5%;
+    margin-bottom: 0;
+    margin-right: 0;
+    border-bottom-left-radius: 3px;
+    border-bottom: 3px solid #fff;
+}
+.header-content-1 .main-nav li {
+    display: inline-block;
+    padding-left: 10px;
+}
+.header-content-2 .main-nav li {
+    display: inline-block;
+    padding-left: 25px;
+}
+.main-nav li:nth-child(1) {
+    padding-left: 75px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    background: rgba(100, 58, 121, 0);
+    padding: 25px 20px 20px 20px;
+    border-radius: 2px;
+    display: inline-block;
+    transition: 0.5s;
+    color: #501876;
+    font-weight: bold;
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited {
+    background: rgba(0, 0, 0, 0.6);
+    color: orange;
+    transform: scale(1.1);
+}
+.main-nav li.active a {
+    
+}
+
+/*------------STICKY-NAVIGATION------------*/
+
+.sticky .main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-bottom: 3px solid #fff;
+    padding-left: 50px;
+    box-shadow: 0 2px 5px #ccc;
+    z-index: 9999;
+    transition: 1s;
+    margin-left: 0;
+}
+
+
+
+.sticky .logo {
+    margin-top: 0;
+    width: auto;
+    height: 6rem;
+    float: left;
+}
+.sticky .mobile-menu span {
+    margin-top: 0;
+    font-size: 4rem;
+}
+
+
+
+.login-caption-first ul li {
+    font-size: 16px;
+    color: #000;
+    padding: 0 0 8px 30px;
+    position: relative;
+    margin-bottom: 8px;
+    line-height: normal;
+}
+.login-caption-first ul li:before {
+    content: '';
+    width: 16px;
+    height: 13px;
+    background-image: url(BG-img/tick-mark.svg);
+    position: absolute;
+    left: 0;
+    top: 7px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    filter: invert(62%) sepia(70%) saturate(2319%) hue-rotate(48deg) brightness(94%) contrast(102%);
+    -webkit-filter: invert(62%) sepia(70%) saturate(2319%) hue-rotate(48deg) brightness(94%) contrast(102%);
+}
+
+
+
+/* ==================== */
+   /* FOOTER SECTION */
+/* ==================== */
+
+.footer-1 {
+    width: 100%;
+    height: 100%;
+    background: #501876;
+    font-size: 16px;
+    color: rgba(252, 255, 251, 0.8);
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.footer-1 .container {
+    padding: 0 25px;
+}
+.footer-1 .col-md-12 {
+    padding: 40px;
+}
+.footer-1 h5 {
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+.footer-1 ul li {
+    padding-bottom: 20px;
+}
+.footer-1 ul li a {
+    text-decoration: none;
+    color: rgba(252, 255, 251, 0.8);
+}
+.footer-1 ul li a:hover {
+    color: crimson;
+    transition: 0.3s;
+}
+.footer-1 .col-md-12 .col-md-8 {
+    padding-left: 80px;
+}
+
+/*-----Footer-Content-1-----*/
+
+.footer-1 .footer-content-1 ul li i {
+    padding-right: 10px;
+}
+.footer-1 .footer-content-1 ul li i:hover {
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.footer-1 .footer-content-1 .play-store {
+    width: 155px;
+    height: 48px;
+    transition: transform 0.5s;
+}
+.footer-1 .footer-content-1 .play-store:hover {
+    transform: translateX(-5px);
+    filter:drop-shadow(0 0 1px #fff);
+}
+.footer-1 .footer-content-1 .app-store {
+    width: 155px;
+    height: 48px;
+    margin-left: 15px;
+    transition: transform 0.5s;
+}
+.footer-1 .footer-content-1 .app-store:hover {
+    transform: translateX(-5px);
+    filter:drop-shadow(0 0 1px #fff);
+}
+.footer-1 .footer-content-1 small {
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    
+}
+.footer-1 .footer-content-1 p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/*-----Footer-Content-4-----*/
+
+.footer-1 .footer-content-4 ul li {
+    display: inline-block;
+}
+.footer-1 .footer-content-4 ul li .fa-facebook-f {
+    background-color: rgba(255, 222, 0, 0.8);
+    color: #501876;
+    padding: 12px 15px;
+    border-radius: 50%;
+    transition: transform 0.5s;
+}
+.footer-1 .footer-content-4 ul li .fa-facebook-f:hover {
+    background: #ffde00;
+    transform: rotate(360deg);
+}
+.footer-1 .footer-content-4 ul li .fa-twitter,
+.footer-1 .footer-content-4 ul li .fa-linkedin-in,
+.footer-1 .footer-content-4 ul li .fa-envelope {
+    background-color: rgba(255, 222, 0, 0.8);
+    color: #501876;
+    padding: 12px;
+    margin-left: 10px;
+    border-radius: 50%;
+    transition: transform 0.5s;
+}
+.footer-1 .footer-content-4 ul li .fa-twitter:hover,
+.footer-1 .footer-content-4 ul li .fa-linkedin-in:hover,
+.footer-1 .footer-content-4 ul li .fa-envelope:hover {
+    background: #ffde00;
+    transform: rotate(360deg);
+}
+
+/*-----Footer-Content-Copyright-----*/
+
+.footer-1 hr{
+    border: none;
+    background: #f3f3f3;
+    height: 1px;
+}
+.footer-1 .copyright p{
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px;
+}

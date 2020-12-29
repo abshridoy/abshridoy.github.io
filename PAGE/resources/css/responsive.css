@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1400px)
+{
+
+}
+
+
+
+@media only screen and (max-width: 1200px)
+{
+
+}
+
+
+
+@media only screen and (max-width: 1024px)
+{
+    .mobile-menu span {
+        display: block;
+    }
+}
+
+
+
+@media only screen and (max-width: 980px)
+{
+    .main-nav {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px)
+{
+
+}
+
+
+
+@media only screen and (max-width: 480px)
+{
+
+}
