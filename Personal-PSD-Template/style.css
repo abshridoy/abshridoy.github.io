@@ -32,13 +32,14 @@ body {
     font-size: 80px;
     color: #fff;
     font-weight: bold;
-    padding-top: 180px;
+    padding-top: 80px;
     padding-bottom: 65px;
 }
 .header p {
     font-size: 18px;
     color: #fff;
-    padding-bottom: 185px;
+    padding-bottom: 85px;
+    text-transform: capitalize;
 }
 .header i {
     font-size: 18px;
@@ -69,6 +70,7 @@ body {
     color: #464b4f;
     font-size: 30px;
     text-align: center;
+    text-transform: capitalize;
 }
 .what-i-do h1 {
     color: #464b4f;
@@ -77,6 +79,7 @@ body {
     font-weight: bold;
     padding-top: 120px;
     padding-bottom: 100px;
+    text-transform: capitalize;
 }
 .what-i-do h6 {
     color: #464b4f;
@@ -117,8 +120,9 @@ body {
     padding-bottom: 50px;
 }
 .work ul li {
-    font-size: 14px;
-    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ccc;
     display: inline-flex;
 }
 .work ul li:hover {
@@ -206,6 +210,7 @@ body {
     text-align: center;
     padding-top: 55px;
     padding-bottom: 55px;
+    text-transform: capitalize;
 }
 .photography h1 {
     color: #464b4f;
@@ -271,6 +276,7 @@ body {
     padding-top: 55px;
     padding-bottom: 60px;
     text-align: center;
+    text-transform: capitalize;
 }
 .footer-1 input {
     width: 100%;
